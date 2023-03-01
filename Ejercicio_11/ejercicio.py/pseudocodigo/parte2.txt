@@ -1,0 +1,54 @@
+#APARTADO 2
+Estudiar una versión iterativa que calcula el mcd haciendo solo sumas o restas.
+
+algoritmo mcd_resto(num_1,num_2):
+Entrada
+    num_1:ENTERO
+    num_2:ENTERO
+Resultado:ENTERO
+precondición
+    num_1 y num_2 ≠ NULO
+realización
+    si 
+        num_1>num_2
+    entonces
+        minuendo=num_1
+        sustraendo=num_2
+        diferencia=minuendo-sustraendo
+        si 
+            diferencia=0
+        entonces
+            devolver sustraendo
+        sinosi
+            hasta que  diferencia =0 repetir
+                si 
+                    diferencia>sustraendo
+                entonces 
+                    minuendo=diferencia
+                    diferencia=minuendo-sustraendo
+                sinosi
+                    minuendo=sustraendo
+                    sustraendo=diferencia
+                    diferencia=minuendo-sustraendo  
+            devolver sustraendo
+    sinosi  
+        minuendo=num_2
+        sustraendo=num_1
+        diferencia=minuendo-sustraendo
+        si
+         diferencia==0
+        entonces
+            devolver sustraendo
+        sinosi
+            hasta que diferencia =0 repetir
+                si 
+                    diferencia>sustraendo
+                entonces
+                    minuendo=diferencia
+                    diferencia=minuendo-sustraendo
+                sinosi
+                    minuendo=sustraendo
+                    sustraendo=diferencia
+                    diferencia=minuendo-sustraendo
+            devolver sustraendo
+    

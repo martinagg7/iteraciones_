@@ -1,0 +1,48 @@
+ #APARTADO 1
+ Dar una versión iterativa del algoritmo de Euclides para el cálculo del mcd de dos números enteros.
+
+algoritmo mcd_euclides
+    #versión iterativa para calcular el mcd de dos números
+Entrada
+    num_1:ENTERO
+    num_2:ENTERO
+Resultado:ENTERO
+precondición
+    num_1 y num_2 ≠ NULO
+realización
+    si 
+        num_1>num_2
+    entonces
+        cociente=num_1//num_2
+        resto=num_1%num_2
+
+        si 
+            resto==0
+        fin_si
+            devolver num_2
+        sinosi
+            hasta que resto =0 repetir
+                num_1=num_2
+                num_2=resto
+                cociente=num_1//num_2
+                resto=num_1%num_2
+    sino si
+        entonces
+        cociente=num_2//num_1
+        resto=num_2%num_1
+
+        si 
+            resto==0
+        fin_si
+            devolver num_1
+        sinosi
+            hasta que resto =0 repetir
+                num_2=num_1
+                num_1=resto
+                cociente=num_2//num_1
+                resto=num_2%num_1
+                
+
+
+
+
