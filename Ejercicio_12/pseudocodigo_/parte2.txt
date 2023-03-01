@@ -1,0 +1,18 @@
+#APARTADO 2
+
+algoritmo_raiz_entero
+Entrada
+    n:ENTERO
+Resultado:ENTERO
+Precondición    
+    n ≠ NULO
+realización
+    si
+        n<0
+    entonces
+        Resultado ←"No existe raiz para el número "
+        sino
+            hasta que r*r==n
+                repetir
+                r=r+1
+    fin algoritmo_raiz_entero

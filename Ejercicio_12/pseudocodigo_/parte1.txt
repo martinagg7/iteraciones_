@@ -1,0 +1,28 @@
+#APARTADO 1
+
+
+algoritmo tabla_cuadrados_perfectos
+    #los cuadrados perfectos sucesivos hasta el límite que introduzca el usuario
+Entrada
+    t:tabla[ENTERO]
+    limite_cuadrados=ENTERO
+Precondición
+    limite_cuadrados ≠ NULO
+    indice_min(t)=1
+    indice_max(t)>=1
+Variable
+    n:ENTERO
+    cuadrado:N
+Inicialización
+    n<-- 1
+    lista_cuadrados=VACIO
+mientras
+    n<= limite_cuadrados
+    #Hemos inicializado la tabla hasta el valor n
+    lista.cuadrados{cuadrado}
+    n=n+1
+    cuadrado<--n+n-1+cuadrado
+cuando n>limite
+fin repetir
+
+fin algoritmo_tabla_cuadrados
