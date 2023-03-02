@@ -1,2 +1,0 @@
-# Definir el tipo PERSONA. ¿Cómo declarar la tabla familias?
-#Cuando una persona registrada en la tabla no tiene padre o madre registrado, el atributo correspondiente es HUÉRFANO. Cuando una celda no está ocupada porque la persona que contenía se ha borrado, su identificador es BORRADO. Las celdas que nunca han recibido valor, cuando hay menos de 1000 personas registradas, tienen un identificador igual a VACÍO
