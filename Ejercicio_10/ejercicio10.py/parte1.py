@@ -1,0 +1,1 @@
+# Definir el tipo PERSONA. 
