@@ -11,7 +11,7 @@ Precondición
     indice_min(t)=1
     indice_max(t)>=1
 Variable
-    n:ENTERO
+    n:ENTERO 
     cuadrado:N
 Inicialización
     n<-- 1
