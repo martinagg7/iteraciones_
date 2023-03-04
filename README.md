@@ -2,7 +2,9 @@
 En este ejercicio se resuelven los ejercicios propuestos en el apartado de iteraciones , con su respectivo programa en python y pseudocódigo cuando es preciso
 # datos
 nombres_usuarios=martinagg7 /alejandru00
+
 link repositorio= https://github.com/martinagg7/iteraciones_.git
+
 librerias importadas= panda
 
 # Ejercicios
