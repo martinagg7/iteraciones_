@@ -1,0 +1,19 @@
+#DECLARAR LA TABLA FAMILIAS
+
+Algoritmo tabla_familias
+
+constante
+    MAX_PERSONAS: ENTERO ← 1000
+    MIN_PERSONAS:ENTERO ← 1
+    #número de cliente que no existe en la padre
+    BORRADO :ENTERO ← MIN_PERSONAS-1
+    #huerfano
+    PADRE y MADRE= VACIO
+varible
+    id=Identidad
+id.nombre ←"Nombre"
+id.apellido←"Persona"
+id.edad←"Edad"
+
+Entrada
+t:TABLA[Personas,MIN_PERSONAS,MAX_PERSONAS]

@@ -1,0 +1,46 @@
+#DECLARAR LA TABLA FAMILIAS
+
+Algoritmo busca_ padre_tabla_familias
+
+constante
+    MAX_PERSONAS: ENTERO ← 1000
+    MIN_PERSONAS:ENTERO ← 1
+    #número de cliente que no existe en la padre
+    BORRADO :ENTERO ← MIN_PERSONAS-1
+    #huerfano
+    PADRE y MADRE= VACIO
+varible
+    id=Identidad
+id.nombre ←"Nombre"
+id.apellido←"Persona"
+id.edad←"Edad"
+id.padre← "Nombre Padre"
+id.madre ← "Nombre Madre"
+id.hermano ←"Hemano y hermana" 
+
+Entrada
+identidad:identidad
+t:TABLA[Personas,MIN_PERSONAS,MAX_PERSONAS]
+
+Precondición 
+t ≠ NULO
+identidad ≠ NULO
+
+Poscondición
+#Devuelve vacion si el nombre introducido no esta en la tabla
+no pertenece(indetidad,t)->Resultado=VACIO
+
+
+#En el caso de que pertenezca a la tabla
+MIN_PERSONAS(T)<=Resultado <=MAX_PERSONAS
+si
+    t[Resultado].padres≠ VACIO
+entonces 
+    #devolver el valor de la celda padres que contiene ese nombre
+    t[Resultado].p.padres=padres
+
+fin de buscar_padres
+
+
+
+
